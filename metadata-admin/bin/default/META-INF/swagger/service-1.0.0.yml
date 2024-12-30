@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: Service
+  version: 1.0.0
+paths:
+  /conferences/random:
+    get:
+      operationId: randomConf
+      responses:
+        "200":
+          description: randomConf 200 response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Conference"
+components:
+  schemas:
+    Conference:
+      type: object
+      properties:
+        name:
+          type: string

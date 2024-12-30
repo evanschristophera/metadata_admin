@@ -29,6 +29,8 @@ dependencies {
     runtimeOnly("org.yaml:snakeyaml")
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("io.micronaut.test:micronaut-test-rest-assured")
+    implementation("io.micronaut.serde:micronaut-serde-bson")
+
 }
 
 
