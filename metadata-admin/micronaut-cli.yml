@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.axient.metadataadmin
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jdbc, graalvm, gradle, http-client-test, jackson-databind, java, java-application, jdbc-hikari, jib, junit, kubernetes, logback, management, micronaut-aot, micronaut-build, micronaut-http-validation, micronaut-test-rest-assured, netty-server, openapi, postgres, readme, shade, static-resources, swagger-ui, test-resources, yaml, yaml-build]
